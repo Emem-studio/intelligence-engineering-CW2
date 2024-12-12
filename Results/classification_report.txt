@@ -1,0 +1,13 @@
+Final Accuracy: 0.8398367478585561
+
+Final Classification Report:
+               precision    recall  f1-score   support
+
+  Lying Down       1.00      1.00      1.00     15568
+     Running       1.00      1.00      1.00     31449
+     Sitting       0.97      0.70      0.82     81584
+     Walking       0.56      0.95      0.71     32622
+
+    accuracy                           0.84    161223
+   macro avg       0.88      0.91      0.88    161223
+weighted avg       0.90      0.84      0.85    161223

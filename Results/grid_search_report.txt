@@ -1,0 +1,5 @@
+Fitting 2 folds for each of 1 candidates, totalling 2 fits
+[CV] END max_depth=4, max_features=sqrt, n_estimators=10, random_state=0; total time=   0.0s
+[CV] END max_depth=4, max_features=sqrt, n_estimators=10, random_state=0; total time=   0.0s
+Best Parameters: {'max_depth': 4, 'max_features': 'sqrt', 'n_estimators': 10, 'random_state': 0}
+Best Score: 0.9302214976821128
