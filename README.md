@@ -90,7 +90,7 @@ The dataset contains sensor readings from wearable devices. Each data entry incl
 
 ## Results
 
-The final model achieves an accuracy of **\~93.5%** with the following performance metrics:
+The final model achieves an accuracy of **\~83.9%** with the following performance metrics:
 
 - **Precision**, **Recall**, and **F1-Score** for each activity.
 - Confusion matrix heatmap visualization.
