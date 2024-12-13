@@ -16,7 +16,8 @@ jobs:
         uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
-
+      - name: Add AZ Ext ML
+        run: az extension add -n ml
       - name: Submit Azure ML Job
         run: |
           az ml job create --file job.yml --resoure-group CW2_MLOps_ResourceGroup --workspace-name IntelligenceEngineeringWS
