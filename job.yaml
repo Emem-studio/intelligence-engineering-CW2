@@ -1,0 +1,11 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+code: .
+command: python random_forest_pipeline.py --trainingdata ${{ inputs.trainingdata }}
+inputs:
+  trainingdata:
+    type: uri_file
+    path: azureml:comb_data:1
+environment: azureml://registries/azureml/environments/sklearn-1.1/versions/14
+compute: Nnah-E1
+experiment_name: Deployment Experiment
+description: Deployment
